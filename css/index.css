@@ -1775,6 +1775,7 @@ a:link{
     text-decoration: none;
     color: black !important;
     font-weight: unset;
+    color: #32c888 !important;
   }
 
   .review-box .footer {
