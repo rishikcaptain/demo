@@ -656,6 +656,9 @@
     /* top: 54px; */
     /* height: calc(1160px - 2vw); */
   }
+  .h2gd-container h2{
+    margin-bottom: 15%;
+  }
 
   .h2gd-content-container {
     width: 100%;
@@ -684,7 +687,8 @@
     justify-content: flex-start;
     align-items: center;
     flex-grow: 1;
-    margin-top: var(--margin-after-heading-updown);
+
+
   }
 
   .h2gd-single-item-container .landing-page-image {
@@ -692,8 +696,7 @@
   }
 
   .h2gd-single-item-container img {
-    width: 100%;
-    height: 50%;
+    width: 50%;
   }
 
   .h2gd-single-item-container .primary-long-btn {
@@ -847,10 +850,6 @@
     justify-content: space-between;
     align-content: center;
 
-    background-image: url(../assets/hiw-mobile.svg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: contain;
   }
 
   .hiw-step-container {
@@ -893,7 +892,7 @@
 
   /* Additional Benefits */
   .ab-container {
-    height: 1050px;
+
     /* background: var(--neutral-grey); */
     padding: var(--margin-updown) var(--margin-side);
     display: flex;
@@ -973,6 +972,7 @@
     height: auto;
     margin-top: 3%;
     margin-left: 4%;
+    margin-bottom: 20%;
   }
 
   .vertically-align {
@@ -982,8 +982,8 @@
   }
 
   .ab-straight-line {
-    height: 66%;
-    top: 23%;
+    height: 68%;
+    top: 15%;
     width: 2px;
     left: 9.6%;
     background-color: var(--primary-blue);
@@ -1187,16 +1187,9 @@
     /* border: 2px solid greenyellow; */
   }
 
-  .features-single-container img {
-    min-height: 120px;
-    max-height: 120px;
-    max-width: 100%;
-    /* object-fit: contain; */
-    /* flex-grow: 1; */
-  }
 
   .features-single-container h3 {
-    height: auto;
+    height: 180px;
     /* flex-grow: 1; */
     display: flex;
     flex-direction: column;
@@ -1429,7 +1422,7 @@
   }
 
   .accordion {
-    background-color: #d4d4d4f3;
+    background-color: #71797E;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
@@ -1501,6 +1494,7 @@
   .panel > main {
     padding: 20px !important;
     text-align: left;
+    color: #000;
   }
 
   .panel ol,
