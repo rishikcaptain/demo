@@ -278,7 +278,7 @@
   #menu-items li {
     list-style: none;
     display: inline;
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   #menu-items ul li a {
@@ -1361,7 +1361,7 @@ a:link{
   .blog-single-thumbnail img {
     height: 100%;
     width: 100%;
-  
+
     border-radius: 10px;
   }
 

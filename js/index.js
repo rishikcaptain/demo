@@ -227,7 +227,7 @@ function copyToClipboard(text) {
 var isCodeCopied = 0;
 
 function addToClipboard() {
-  copyToClipboard("TNMBH");
+  copyToClipboard("PREP12");
   var tooltip = document.getElementById("myTooltip");
   var couponTextDom = document.querySelector(".coupon-code");
   var couponContainerDom = document.querySelector(".copy-container");
