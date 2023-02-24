@@ -7,18 +7,18 @@
   }
 
   :root {
-    --primary-blue: #353263;
-    --secondary-red: #eb2424;
-    --secondary-dark-red: #c71212;
-    --neutral-dark-grey: #c2d1d9;
-    --neutral-grey: #f2f5f7;
-    --neutral-white: #ffffff;
-    --neutral-blue: #344457;
+    --primary-blue: #fff;
+  --secondary-red: #32c888;
+  --secondary-dark-red: #32c888;
+  --neutral-dark-grey: #3d3d3d;
+  --neutral-grey: #1d1d1d;
+  --neutral-white: #3d3d3d;
+  --neutral-blue: #fff;
 
-    --font: "Poppins", sans-serif;
+    --font: "Montserrat";
     --margin-side: 7%;
-    --margin-updown: 40px;
-    --margin-after-heading-updown: 20px;
+    --margin-updown: 47.5px;
+    --margin-after-heading-updown: 45px;
     min-width: 320px;
     scroll-behavior: smooth;
   }
@@ -60,7 +60,7 @@
     border-style: none;
     border-radius: 25px;
     opacity: 1;
-    color: var(--neutral-white);
+    color: #fff;
     font: normal normal normal 10px/18px var(--font);
     text-transform: uppercase;
     text-align: center;
@@ -181,12 +181,13 @@
   .back2top .fa-angle-up {
     position: relative;
     top: 0;
-    color: #fff;
+    color: #32c888;
     font-size: 22px;
   }
 
   #menu-cta-btn {
     font-size: 13px;
+    color: #fff;
   }
 
   /* Main sections divisions */
@@ -392,7 +393,7 @@
 
   .tags li a:hover {
     color: white;
-    background-color: var(--primary-blue);
+    background-color: #32c888;
   }
 
   /* Tags Upper */
@@ -598,7 +599,7 @@
 
   .comments-cntr button {
     background-color: var(--neutral-blue);
-    color: white;
+    color: black;
     font-weight: 450;
     border: none;
     font-size: 14px;
@@ -611,6 +612,7 @@
     transition: background-color 0.3s ease;
     cursor: pointer;
     border: none;
+    color: white;
   }
 
   .comments-cntr input:focus,

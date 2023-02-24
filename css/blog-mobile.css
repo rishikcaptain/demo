@@ -90,6 +90,7 @@
 
   #menu-cta-btn {
     font-size: 13px;
+    color: #fff;
   }
 
   .primary-long-btn:hover,
@@ -320,7 +321,7 @@
   .back2top .fa-angle-up {
     position: relative;
     top: 0;
-    color: #fff;
+    color: #32c888;
     font-size: 22px;
   }
 

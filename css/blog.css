@@ -226,7 +226,7 @@
   .back2top .fa-angle-up {
     position: relative;
     top: 0;
-    color: #fff;
+    color: #32c888;
     font-size: 22px;
   }
 
@@ -579,7 +579,7 @@
 
   .tags li a:hover {
     color: white;
-    background-color: var(--primary-blue);
+    background-color: #32c888;
   }
 
   /* Footer */
