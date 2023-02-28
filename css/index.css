@@ -1542,6 +1542,9 @@ a:link{
   #discount-calculator tr:nth-child(even) {
     background-color: dimgray !important;
   }
+  #discount-calculator tr:nth-child(2n){
+    background-color: dimgray !important;
+  }
 
   #discount-calculator tr:hover {
     background-color: white;
