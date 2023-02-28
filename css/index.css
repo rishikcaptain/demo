@@ -1540,7 +1540,7 @@ a:link{
   }
 
   #discount-calculator tr:nth-child(even) {
-    background-color: dimgray;
+    background-color: dimgray !important;
   }
 
   #discount-calculator tr:hover {
