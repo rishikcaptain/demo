@@ -1539,17 +1539,13 @@ a:link{
     text-align: center;
   }
 
-  #discount-calculator tr td:nth-child(1) {
-    text-align: left;
-    padding-left: 32px;
-  }
-
   #discount-calculator tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: dimgray;
   }
 
   #discount-calculator tr:hover {
-    background-color: lightblue;
+    background-color: white;
+    color: black;
   }
 
   #discount-calculator th {

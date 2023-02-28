@@ -59,7 +59,7 @@
     border-style: none;
     border-radius: 25px;
     opacity: 1;
-    color: var(--neutral-white);
+    color: #fff;
     font: normal normal normal 10px/18px var(--font);
     text-transform: uppercase;
     text-align: center;
