@@ -1,5 +1,0 @@
-Sitemap: https://cnoffers.github.io/
-
-User-agent: *
-Disallow: /test/*
-
